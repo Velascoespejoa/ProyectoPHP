@@ -2,7 +2,7 @@
 
     require("DB.php");
 
-    final class DevolverResultado extends DB 
+    class DevolverResultado extends DB 
     {
         public function __construct(){
             parent::__construct();
