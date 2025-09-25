@@ -4,8 +4,11 @@
 
     final class DevolverResultado extends DB 
     {
-        parent::__construct();
-    }
+        public function __construct(){
+            parent::__construct();
+        }
+        
+ 
     
 
     public function getProducto(){
@@ -15,7 +18,7 @@
     }
 
     
-
+    }
 
 
 

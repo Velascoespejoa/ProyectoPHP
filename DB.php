@@ -11,7 +11,7 @@
             $this->$db_conn = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME); // Realizamos la conexión con el metodo "mysqli" y las constantes definidas
 
             if($this->$db_conn->connect_errno){ // manejamos que no exista error con el bool que nos devuelve la propiedad connect_errno de mysqli
-                echo "Fallo al conectar a la base de datos:" . $this.$db_conn->connect_error:
+                echo "Fallo al conectar a la base de datos:" . $this.db_conn->connect_error;
                 return;                
             }
             //definimos que codificación de texto vamos a utilizar en la sentencia 
