@@ -13,7 +13,7 @@
 
     public function getProducto(){
         $result = $this->db_conn->query("SELECT * FROM Productos");
-        $productos = $result->fetch_array(MYSQLI_ASSOC);
+        $productos = $result->fetch_all(MYSQLI_ASSOC); 
         return $productos;
     }
 
