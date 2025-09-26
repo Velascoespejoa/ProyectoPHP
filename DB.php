@@ -16,6 +16,8 @@
             }
             //definimos que codificación de texto vamos a utilizar en la sentencia 
             $this->db_conn->set_charset(DB_CHARSET);
+            //hola
+            $pepsi = 0;
         }
     }   
 ?>
