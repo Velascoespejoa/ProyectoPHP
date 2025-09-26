@@ -1,3 +1,12 @@
+<?php 
+    require("DevuelveProducto.php");
+
+    $productos = new DevuelveProducto();
+    $listaProductos = $productos->getProductos();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +15,15 @@
     <title>Document</title>
 </head>
 <body>
-    <?php   
     
-        require("DevolverResultados");
+    <?php 
+    
+        foreach ($listaProductos as $key => $value) {
+            
+        }
 
-        
-    
     
     ?>
+
 </body>
 </html>
